@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/Views/signin.dart';
+import 'package:flutter_application_3/commonuis/signin.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 import '../services/user_model.dart';
@@ -199,7 +199,7 @@ class _SignUpState extends State<SignUp> {
                                         context,
                                         MaterialPageRoute(
                                             builder: (context) =>
-                                                const SignUp()));
+                                                const Signin()));
                                   },
                                   child: const Text(
                                     "Login",

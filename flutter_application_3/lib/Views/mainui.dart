@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_3/Views/chatroomscreen.dart';
+import 'package:flutter_application_3/Views/special_links.dart';
 import 'package:flutter_application_3/widgets/color.dart';
 
 class MainUi extends StatelessWidget {
@@ -136,7 +137,7 @@ class MainUi extends StatelessWidget {
           GestureDetector(
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const Chatroom()));
+                  MaterialPageRoute(builder: (context) => SpecialLinks()));
             },
             child: Container(
                 color: Colors.yellow,
